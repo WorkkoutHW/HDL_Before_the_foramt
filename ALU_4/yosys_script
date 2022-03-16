@@ -1,0 +1,10 @@
+read_verilog ../ALU_4.v
+hierarchy -check -top ALU_4
+proc; opt; fsm; opt; memory; opt
+techmap; opt
+dfflibmap -liberty ../osu025_stdcells.lib
+abc -D 10000 -constr ../synth.contr -liberty ../osu025_stdcells.lib 
+stat -liberty ../osu025_stdcells.lib
+clean
+write_verilog ../ALU_4_synth.v
+exit

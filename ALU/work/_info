@@ -1,0 +1,178 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/20.1/ALU
+vAdd_full
+Z1 !s110 1618645151
+!i10b 1
+!s100 a5bIV2CMHaSdV>X@>?EQd2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Io7?7SVFLbz9NQNJVoA5g^3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1618645137
+Z5 8C:/intelFPGA/20.1/ALU/ALU.v
+Z6 FC:/intelFPGA/20.1/ALU/ALU.v
+!i122 0
+L0 10 9
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1618645151.000000
+!s107 C:/intelFPGA/20.1/ALU/ALU.v|
+Z9 !s90 -reportprogress|300|-work|work|C:/intelFPGA/20.1/ALU/ALU.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@add_full
+vAdd_half
+R1
+!i10b 1
+!s100 Z;Kgk>MJzMmhcPc5Sh:n23
+R2
+I91F>z1]T[d0S@MEe@RVzA2
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 1 8
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 C:/intelFPGA/20.1/ALU/ALU.v|
+R9
+!i113 1
+R10
+R11
+n@add_half
+vALU
+R1
+!i10b 1
+!s100 YGLD[b=k3OT=3jHK^mQOg0
+R2
+IeGWmXn>6Ni;62>dnU[T512
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 95 17
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@a@l@u
+vAU_4
+R1
+!i10b 1
+!s100 hfKC7?BdIJ]^<5XbE9Gd?0
+R2
+I4^BSE[MLHGYJSU@5^UC7Z1
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 42 24
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@a@u_4
+vLU_4
+R1
+!i10b 1
+!s100 851Ez87]B6NhNQz0`[da>0
+R2
+I^DEMVK78eBH=ehKg^i=bb0
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 84 10
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@l@u_4
+vMUX_2x1
+R1
+!i10b 1
+!s100 Sa_XZ5U32cYjER^iGX<E:1
+R2
+I<US=XIb1:_R19<oV4O[bJ2
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 20 11
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@m@u@x_2x1
+vMUX_4x1
+R1
+!i10b 1
+!s100 CiFLBRELK63j3Z82o<Mg@3
+R2
+Ig?<SW@EGY]@AjA?^RRgRh2
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 9
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@m@u@x_4x1

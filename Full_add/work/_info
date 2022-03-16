@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/20.1/Full_add
+vAdd_full
+Z1 !s110 1617637419
+!i10b 1
+!s100 G3c]Ofd0KScL]mFLZ?fig2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IR?>6<BG1hl4lK`BFdBCjc3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1617637410
+Z5 8C:/intelFPGA/20.1/Full_add/Add_full.v
+Z6 FC:/intelFPGA/20.1/Full_add/Add_full.v
+!i122 0
+L0 1 9
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1617637419.000000
+!s107 C:/intelFPGA/20.1/Full_add/Add_full.v|
+Z9 !s90 -reportprogress|300|-work|work|C:/intelFPGA/20.1/Full_add/Add_full.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@add_full
+vAdd_half
+R1
+!i10b 1
+!s100 Dm95da?U7g9=mO@:MYi>^1
+R2
+I[J?id[A=H;?[<VCB74c@92
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 11 7
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 C:/intelFPGA/20.1/Full_add/Add_full.v|
+R9
+!i113 1
+R10
+R11
+n@add_half

@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/20.1/gates
+vgates
+Z1 !s110 1616392192
+!i10b 1
+!s100 :E<SA`;2@;P?I@7kT9lXE1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Il0;IdL4QHaEE16GIo33Gm1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1615908473
+8C:/intelFPGA/20.1/gates/gates.v
+FC:/intelFPGA/20.1/gates/gates.v
+!i122 0
+L0 1 11
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1616392192.000000
+!s107 C:/intelFPGA/20.1/gates/gates.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA/20.1/gates/gates.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vgates_test
+R1
+!i10b 1
+!s100 PUMX]J^ZS?AK]BPmXG?zA0
+R2
+IUP>WUHNC;UL223O:KN>An2
+R3
+R0
+w1616391988
+8C:/intelFPGA/20.1/gates/gates_test.v
+FC:/intelFPGA/20.1/gates/gates_test.v
+!i122 1
+L0 1 20
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA/20.1/gates/gates_test.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA/20.1/gates/gates_test.v|
+!i113 1
+R6
+R7

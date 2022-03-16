@@ -1,0 +1,35 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/20.1/DFF
+vDFF
+!s110 1619530155
+!i10b 1
+!s100 Nz_[X[8CBLlDAm=2OS@Mn1
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IL?nJKf6gX2^DH5jI`DU@[3
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1619530121
+8C:/intelFPGA/20.1/DFF/DFF.v
+FC:/intelFPGA/20.1/DFF/DFF.v
+!i122 0
+L0 1 9
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1619530155.000000
+!s107 C:/intelFPGA/20.1/DFF/DFF.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA/20.1/DFF/DFF.v|
+!i113 1
+o-work work
+tCvgOpt 0
+n@d@f@f

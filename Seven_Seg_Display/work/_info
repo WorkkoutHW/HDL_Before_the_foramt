@@ -1,0 +1,35 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1/seven_segment
+vSeven_Seg_Display
+!s110 1616939545
+!i10b 1
+!s100 1nM98Hga`M1H:Lg:h57OK3
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I^X31990GWOV:_d4<=QVdQ0
+VDg1SIo80bB@j0V0VzS_@n1
+dC:/intelFPGA/20.1/Seven_Seg_Display
+w1616939507
+8C:/intelFPGA/20.1/Seven_Seg_Display/Seven_Seg_Display.v
+FC:/intelFPGA/20.1/Seven_Seg_Display/Seven_Seg_Display.v
+!i122 0
+L0 1 38
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1616939545.000000
+!s107 C:/intelFPGA/20.1/Seven_Seg_Display/Seven_Seg_Display.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA/20.1/Seven_Seg_Display/Seven_Seg_Display.v|
+!i113 1
+o-work work
+tCvgOpt 0
+n@seven_@seg_@display

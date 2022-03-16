@@ -1,0 +1,106 @@
+Log started 03/05/2021 at 11:49:58
+Preferred installation mode : qt
+Trying to init installer in mode qt
+Mode qt successfully initialized
+Preparing to Install
+Preparing to Install
+Unpacking files
+Unpacking files
+Unpacking files
+Unpacking files
+Unpacking files
+[11:56:27] Installing ModelSim - Intel FPGA Verilog model files...
+Installing ModelSim - Intel FPGA Verilog model files...
+Executing C:\intelFPGA\20.1/modelsim_ase/7z.exe x -bd -y "C:\intelFPGA\20.1/modelsim_ase/altera/modelsim_altera_verilog.zip"
+Script exit code: 0
+
+Script output:
+ 
+7-Zip 18.05 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2018-04-30
+
+Scanning the drive for archives:
+1 file, 564736059 bytes (539 MiB)
+
+Extracting archive: C:\intelFPGA\20.1\modelsim_ase\altera\modelsim_altera_verilog.zip
+--
+Path = C:\intelFPGA\20.1\modelsim_ase\altera\modelsim_altera_verilog.zip
+Type = zip
+Physical Size = 564736059
+
+Everything is Ok
+
+Folders: 39
+Files: 277
+Size:       1788012810
+Compressed: 564736059
+
+Script stderr:
+ 
+
+Unpacking files
+[11:57:08] Installing ModelSim - Intel FPGA VHDL model files...
+Installing ModelSim - Intel FPGA VHDL model files...
+Executing C:\intelFPGA\20.1/modelsim_ase/7z.exe x -bd -y "C:\intelFPGA\20.1/modelsim_ase/altera/modelsim_altera_vhdl.zip"
+Script exit code: 0
+
+Script output:
+ 
+7-Zip 18.05 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2018-04-30
+
+Scanning the drive for archives:
+1 file, 561940777 bytes (536 MiB)
+
+Extracting archive: C:\intelFPGA\20.1\modelsim_ase\altera\modelsim_altera_vhdl.zip
+--
+Path = C:\intelFPGA\20.1\modelsim_ase\altera\modelsim_altera_vhdl.zip
+Type = zip
+Physical Size = 561940777
+
+Everything is Ok
+
+Folders: 70
+Files: 286
+Size:       1927157378
+Compressed: 561940777
+
+Script stderr:
+ 
+
+Installing  ...
+Executing C:\intelFPGA\20.1/vcredist2013_x86.exe /q /norestart
+Script exit code: 0
+
+Script output:
+ 
+
+Script stderr:
+ 
+
+Installing  ...
+Executing C:\intelFPGA\20.1/vcredist2010_x86.exe /q /norestart
+Script exit code: 0
+
+Script output:
+ 
+
+Script stderr:
+ 
+
+Adding C:\intelFPGA\20.1\modelsim_ase\win32aloem to System Path
+Broadcasting environment changes
+[11:58:10] clearWindowsACL ...
+[11:58:16] set permission for admin/system users ...
+[11:58:26] set permission for Authenticated Users and Users group ...
+[11:58:33] Done setting permissions for C:\intelFPGA\20.1
+[11:58:33] Admin permissions: granted: delete file_all_access file_append_data file_delete_child file_execute file_generic_execute file_generic_read file_generic_write file_read_attributes file_read_data file_read_ea file_write_attributes file_write_data file_write_ea read_control standard_rights_all standard_rights_execute standard_rights_read standard_rights_required standard_rights_write synchronize write_dac write_owner.
+[11:58:33] System user permissions: granted: delete file_all_access file_append_data file_delete_child file_execute file_generic_execute file_generic_read file_generic_write file_read_attributes file_read_data file_read_ea file_write_attributes file_write_data file_write_ea read_control standard_rights_all standard_rights_execute standard_rights_read standard_rights_required standard_rights_write synchronize write_dac write_owner.
+[11:58:33] Authenticated User permissions: granted: file_execute file_generic_execute file_generic_read file_read_attributes file_read_data file_read_ea read_control standard_rights_execute standard_rights_read standard_rights_write synchronize.
+[11:58:33] Users group permissions: granted: file_execute file_generic_execute file_generic_read file_read_attributes file_read_data file_read_ea read_control standard_rights_execute standard_rights_read standard_rights_write synchronize.
+Creating Uninstaller
+Creating uninstaller 25%
+Creating uninstaller 50%
+Creating uninstaller 75%
+Creating uninstaller 100%
+Installation completed
+Log finished 03/05/2021 at 11:58:41
+Exiting with code 0

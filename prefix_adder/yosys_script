@@ -1,0 +1,11 @@
+read_verilog ../prefix_adderr.v
+hierarchy -check 
+prep -flatten -top prefix_adder
+proc; opt; fsm; opt; memory; opt
+techmap; opt
+dfflibmap -liberty ../osu025_stdcells.lib
+abc -D 10000 -constr ../synth.contr -liberty ../osu025_stdcells.lib 
+stat -liberty ../osu025_stdcells.lib
+clean
+write_verilog ../prefix_adder.v
+exit

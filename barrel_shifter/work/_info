@@ -1,0 +1,34 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/20.1/barrel_shifter
+vbarrel_shifter
+!s110 1620887301
+!i10b 1
+!s100 Tc=?OcLR68hhoQC;1H4Ol1
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I^eJW7L3iUQk2m>Jo;J2=;0
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1620887295
+8C:/intelFPGA/20.1/barrel_shifter/barrel_shifter.v
+FC:/intelFPGA/20.1/barrel_shifter/barrel_shifter.v
+!i122 0
+L0 1 10
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1620887300.000000
+!s107 C:/intelFPGA/20.1/barrel_shifter/barrel_shifter.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA/20.1/barrel_shifter/barrel_shifter.v|
+!i113 1
+o-work work
+tCvgOpt 0

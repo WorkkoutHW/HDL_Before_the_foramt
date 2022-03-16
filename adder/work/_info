@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/20.1/adder
+vadder_CLA
+Z1 !s110 1621922478
+!i10b 1
+!s100 BRLRQ^>=CNhf@;8ZNkDeE3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IERV=N9n[6NOE?3edl7XHd3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1621922463
+Z5 8C:/intelFPGA/20.1/adder/adder_CLA.v
+Z6 FC:/intelFPGA/20.1/adder/adder_CLA.v
+!i122 0
+L0 63 19
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1621922477.000000
+!s107 C:/intelFPGA/20.1/adder/adder_CLA.v|
+Z9 !s90 -reportprogress|300|-work|work|C:/intelFPGA/20.1/adder/adder_CLA.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+nadder_@c@l@a
+vCLA_4bit_module
+R1
+!i10b 1
+!s100 `Ln7[jzR?0C1X_CSnc`Id3
+R2
+I5o>Hb1?ED37=LaUH@I2dd2
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 25 36
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 C:/intelFPGA/20.1/adder/adder_CLA.v|
+R9
+!i113 1
+R10
+R11
+n@c@l@a_4bit_module
+vfull_adder
+R1
+!i10b 1
+!s100 jJZoc1bV@3Z;Y:S>Ko?5R1
+R2
+I^nnE@;EDVJIBP<:US0[_02
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 10 13
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+vhalf_adder
+R1
+!i10b 1
+!s100 FTc@1m2K3Qe^;<>_Abd8>3
+R2
+IdJoGm4lS_@lD3M^0g?CRU1
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 1 8
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11

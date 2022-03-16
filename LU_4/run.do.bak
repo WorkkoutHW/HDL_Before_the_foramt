@@ -1,0 +1,4 @@
+force AU_4/A 4'b1111 0
+force AU_4/B 4'b0001 0
+force AU_4/S 2'b00 0, 2'b01 100, 2'b10 200, 2'b11 300
+run 400

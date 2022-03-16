@@ -1,0 +1,34 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/20.1/fpga
+vcnt28bit
+!s110 1633501345
+!i10b 1
+!s100 fE2Wm5h6jzT>ZNAmBflA33
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IP`WhhC]jNaYkgj8dGg?j:2
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1633501288
+8C:/intelFPGA/20.1/fpga/cnt28bit.v
+FC:/intelFPGA/20.1/fpga/cnt28bit.v
+!i122 0
+L0 1 15
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1633501345.000000
+!s107 C:/intelFPGA/20.1/fpga/cnt28bit.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA/20.1/fpga/cnt28bit.v|
+!i113 1
+o-work work
+tCvgOpt 0

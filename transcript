@@ -1,0 +1,12 @@
+# Reading pref.tcl
+cd ./ cpu_test
+# wrong # args: should be "cd ?dirName?"
+cd ./ cpu
+# wrong # args: should be "cd ?dirName?"
+cd ./cpu_test
+# reading modelsim.ini
+vsim work.cpu_test
+add wave -position end  /cpu_test/cpu/reg_file/register
+add wave -position 0  sim:/cpu_test/cpu/reg_file/register
+run -all
+# Break in Module cpu_test at C:/intelFPGA/20.1/cpu_test/cpu_test.v line 35

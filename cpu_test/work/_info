@@ -1,0 +1,126 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/20.1/cpu_test
+valu
+Z1 !s110 1638418490
+!i10b 1
+!s100 :k70a[NVMV^eNXdoemkeR3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IDK5_KWj=AEk87@KA2E?Wd1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1602002796
+8C:/intelFPGA/20.1/cpu_test/alu.v
+FC:/intelFPGA/20.1/cpu_test/alu.v
+!i122 6
+L0 1 28
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1638418489.000000
+!s107 C:/intelFPGA/20.1/cpu_test/alu.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA/20.1/cpu_test/alu.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vcpu
+R1
+!i10b 1
+!s100 l4EQ^fLc3QTeJzoiC0OCI1
+R2
+Ine3fG6[Cj]o]>z6[J>J:32
+R3
+R0
+w1602353846
+8C:/intelFPGA/20.1/cpu_test/cpu.v
+FC:/intelFPGA/20.1/cpu_test/cpu.v
+!i122 7
+L0 1 65
+R4
+r1
+!s85 0
+31
+Z7 !s108 1638418490.000000
+!s107 C:/intelFPGA/20.1/cpu_test/cpu.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA/20.1/cpu_test/cpu.v|
+!i113 1
+R5
+R6
+vcpu_test
+R1
+!i10b 1
+!s100 3U7>85CR96nlEH<VZ:12h3
+R2
+I4SfYb;o>^@FU@U<6R851G0
+R3
+R0
+w1602522512
+8C:/intelFPGA/20.1/cpu_test/cpu_test.v
+FC:/intelFPGA/20.1/cpu_test/cpu_test.v
+!i122 8
+L0 1 38
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA/20.1/cpu_test/cpu_test.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA/20.1/cpu_test/cpu_test.v|
+!i113 1
+R5
+R6
+vprog_mem
+R1
+!i10b 1
+!s100 0dg`HefSJFT`?J4HfNETI0
+R2
+IUP?86TcYV4bh9=A[T^[h51
+R3
+R0
+w1638418481
+8C:/intelFPGA/20.1/cpu_test/prog_mem.v
+FC:/intelFPGA/20.1/cpu_test/prog_mem.v
+!i122 9
+L0 1 282
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA/20.1/cpu_test/prog_mem.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA/20.1/cpu_test/prog_mem.v|
+!i113 1
+R5
+R6
+vreg_file
+R1
+!i10b 1
+!s100 =kGQ<7^I@<NWmX<9g;=JA1
+R2
+I:7bPikUa0DMMRzXR@ol]M2
+R3
+R0
+w1638108759
+8C:/intelFPGA/20.1/cpu_test/reg_file.v
+FC:/intelFPGA/20.1/cpu_test/reg_file.v
+!i122 10
+L0 1 107
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA/20.1/cpu_test/reg_file.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA/20.1/cpu_test/reg_file.v|
+!i113 1
+R5
+R6

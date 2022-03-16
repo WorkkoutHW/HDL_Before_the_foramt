@@ -1,0 +1,11 @@
+read_verilog ../Add_rca_16.v
+hierarchy -check 
+prep -flatten -top Add_rca_16
+proc; opt; fsm; opt; memory; opt
+techmap; opt
+dfflibmap -liberty ../osu025_stdcells.lib
+abc -D 10000 -constr ../synth.contr -liberty ../osu025_stdcells.lib 
+stat -liberty ../osu025_stdcells.lib
+clean
+write_verilog ../Add_rca_16_synth.v
+exit

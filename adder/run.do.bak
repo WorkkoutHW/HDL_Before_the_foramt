@@ -1,0 +1,4 @@
+force adder_CLA/a 32'h1111 0
+force adder_CLA/b 32'h0000 0
+force adder_CLA/c_in 0 0, 1 100, 0 200, 1 300, 0 400, 1 500, 0 600, 1 700
+run 800

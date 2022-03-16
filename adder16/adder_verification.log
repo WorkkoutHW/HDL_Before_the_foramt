@@ -1,0 +1,8 @@
+Reading pref.tcl
+
+# 2020.1
+
+# run -all
+# Break in Module adder_verification at ./adder_verification.v line 21
+# Stopped at ./adder_verification.v line 21
+#  q

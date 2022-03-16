@@ -1,0 +1,122 @@
+module first(a,b p,g);
+input a,b;
+output p,g;
+
+or (p,a,b);
+and (g,a,b);
+endmodule
+
+module second(p_new, p_old, g_new, g_old, p_result, g_result);
+input p_new, p_old, g_new, g_old;
+output p_result, g_result;
+
+wire w1;
+
+and(p_result, p_new, p_old);
+and(w1, p_new, g_old);
+or (g_result, g_new, w1);
+endmodule
+
+module last(g_old, a, b, s);
+input a,b;
+input g_old;
+output s;
+
+wire w1;
+
+xor(w1, a, b);
+xor(s, g_old, w1);
+endmodule
+
+module prefix_adder(a, b, c_in, sum, c_out);
+
+input [15:0] a, b;
+input c_in;
+output [15:0] sum;
+output c_out;
+
+wire [49:0] p, g;
+
+
+// module first(a,b p,g);
+first f0(1'b0, 1'b0, p[0], g[0]);
+first f1(a[0], b[0], p[1], g[1]);
+first f2(a[1], b[1], p[2], g[2]);
+first f3(a[2], b[2], p[3], g[3]);
+first f4(a[3], b[3], p[4], g[4]);
+first f5(a[4], b[4], p[5], g[5]);
+first f6(a[5], b[5], p[6], g[6]);
+first f7(a[6], b[6], p[7], g[7]);
+first f8(a[7], b[7], p[8], g[8]);
+first f9(a[8], b[8], p[9], g[9]);
+first f10(a[9], b[9], p[10], g[10]);
+first f11(a[10], b[10], p[11], g[11]);
+first f12(a[11], b[11], p[12], g[12]);
+first f13(a[12], b[12], p[13], g[13]);
+first f14(a[13], b[13], p[14], g[14]);
+first f15(a[14], b[14], p[15], g[15]);
+first f16(a[15], b[15], p[16], g[16]);
+
+// module second(p_new, p_old, g_new, g_old, p_result, g_result);
+// first black block floor
+second s0(p[1], p[0], g[1], g[0], p[17], g[17]);
+
+second s1(p[3], p[2], g[3], g[2], p[18], g[18]);
+
+second s2(p[5], p[4], g[5], g[4], p[19], g[19]);
+
+second s3(p[7], p[6], g[7], g[6], p[20], g[20]);
+
+second s4(p[9], p[8], g[9], g[8], p[21], g[21]);
+
+second s5(p[11], p[10], g[11], g[10], p[22], g[22]);
+
+second s6(p[13], p[12], g[13], g[12], p[23], g[23]);
+
+second s7(p[15], p[14], g[15], g[14], p[24], g[24]);
+
+//second black block floor
+second s8(p[2], p[17], g[2], g[17], p[25], g[25]);
+second s9(p[18], p[17], g[18], g[17], p[26], g[26]);
+
+second s10(p[6], p[19], g[6], g[19], p[27], g[27]);
+second s11(p[20], p[19], g[20], g[19], p[28], g[28]);
+
+second s12(p[10], p[21], g[10], g[21], p[29], g[29]);
+second s13(p[22], p[21], g[22], g[21], p[30], g[30]);
+
+second s14(p[14], p[23], g[14], g[23], p[31], g[31]);
+second s15(p[24], p[23], g[24], g[23], p[32], g[32]);
+
+//third black block floor
+second s17(p[4], p[26], g[4], g[26], p[33], g[33]);
+second s18(p[19], p[26], g[19], g[26], p[34], g[34]);
+second s19(p[27], p[26], g[27], g[26], p[35], g[35]);
+second s20(p[28], p[26], g[28], g[26], p[36], g[36]);
+
+second s21(p[12], p[30], g[12], g[30], p[37], g[37]);
+second s22(p[23], p[30], g[23], g[30], p[38], g[38]);
+second s23(p[31], p[30], g[31], g[30], p[39], g[39]);
+second s24(p[32], p[30], g[32], g[30], p[40], g[40]);
+
+//fourd black block floor
+second s25(p[8], p[36], g[8], g[36], p[41], g[41]);
+second s26(p[21], p[36], g[21], g[36], p[42], g[42]);
+second s27(p[29], p[36], g[29], g[36], p[43], g[43]);
+second s28(p[30], p[36], g[30], g[36], p[44], g[44]);
+second s29(p[37], p[36], g[37], g[36], p[45], g[45]);
+second s30(p[38], p[36], g[38], g[36], p[46], g[46]);
+second s31(p[39], p[36], g[39], g[36], p[47], g[47]);
+second s32(p[40], p[36], g[40], g[36], p[48], g[48]);
+second cout(p[16], p[48], g[16], g[48], p[49], c_out);
+
+
+// module last(g_old, a, b, s);
+xor (s[0], a[0], b[0]);
+last add1(g[17], a[1], b[1], s[1]);
+last add1(g[17], a[1], b[1], s[1]);
+
+
+
+endmodule
+
